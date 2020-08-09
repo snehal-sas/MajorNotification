@@ -40,7 +40,7 @@ def find_major() -> None:
 
     if major == current_major:
         # To test if the program works for notifying the current major, uncomment the line below
-        #os.system("osascript -e \'display notification \""+str(major)+"\" with title \"REGISTER!!!\"\'")
+        #os.system("osascript -e \'display notification \""+str(major)+"\" with title \"Current Major is\"\'")
         pass
 
     else:
